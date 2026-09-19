@@ -67,7 +67,7 @@ Before our analysis we audit **every column** in every table for:
 | `resolution_time_hours` | Positive float | None — no negative values detected | No change |
 | `state` | Resolution status | Column name `state` is ambiguous. Values are binary (0/1), inferred as ticket resolution status based on context (0 = unresolved, 1 = resolved) | Renamed to `is_resolved` for clarity |
 | `comments` | Free text, optional | Mostly null — not suitable for quantitative analysis | Dropped from analytical dataset |
-|
+
 
 ### c. Customer support dataset head *after* data validation & cleaning step
 
@@ -93,7 +93,7 @@ Before our analysis we audit **every column** in every table for:
 | `event_time` | Datetime | Stored as string | Parsed to datetime using `pd.to_datetime()` |
 | `user_id` | Integer | None — no nulls | No change |
 | `event_type` | One of: watch_video, read_article, track_workout, share_workout | None — exactly 4 expected values present | No change |
-|
+
 
 ### c. User activity dataset head *after* data validation & cleaning step
 
@@ -140,7 +140,7 @@ Of the 400 users in the dataset, **114 have churned (28.5%)** and 286 remain act
 |Enterprise |       68  |     24  |  0.260870 |
 |Basic  |           90  |     28  |  0.237288 |
 |Pro    |           66  |    19   | 0.223529 |
-|
+
 
 
 #### Figure 1 — Churn Count & Rate by Plan Type (Bar Chart)
@@ -160,7 +160,7 @@ Of the 400 users in the dataset, **114 have churned (28.5%)** and 286 remain act
 |Low (total_events = 0) |            71 |      83  |  0.538961 |
 |Medium (total_events <= 2 |       169  |     29  |  0.146465 |
 |High (total_events > 2) |           46  |      2  |  0.041667 |
-|
+
 
 #### Figure 2 — Churn Count & Rate by Engagement Level (Bar Chart)
 
