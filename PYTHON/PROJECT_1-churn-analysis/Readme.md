@@ -37,7 +37,7 @@ Before our analysis we audit **every column** in every table for:
 | `plan` | One of: Free, Basic, Pro, Enterprise | None — exactly 4 expected values present | No change |
 | `plan_list_price` | Numeric (USD), 0 for Free | Price varies within each plan (e.g. Basic ranges $10–$30). Free plan correctly priced at $0. | No change |
 | `churn_status` | `Y` or `NaN` | 286 null values present. Nulls interpreted as active (not churned) subscribers | Encoded as boolean: `Y` → `True`, `NaN` → `False`. Column renamed to `churned`.|
-|
+
 
 ### c. Customer account info dataset head *after* data validation & cleaning step
 
