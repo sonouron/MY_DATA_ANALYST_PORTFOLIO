@@ -140,5 +140,5 @@ The SQL Fundamentals certification validates skills in:
 ## 📬 Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ronald--sonou-blue?logo=linkedin)](https://linkedin.com/in/ronald-sonou)
-[![GitHub](https://img.shields.io/badge/GitHub-ronald--sonou-black?logo=github)](https://github.com/ronald-sonou)
+[![GitHub](https://img.shields.io/badge/GitHub-sonouron-black?logo=github)](https://github.com/sonouron)
 [![Email](https://img.shields.io/badge/Email-ronald.sonou1@gmail.com-red?logo=gmail)](mailto:ronald.sonou1@gmail.com)
