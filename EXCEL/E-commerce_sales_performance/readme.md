@@ -134,5 +134,5 @@ Dual-axis analysis **Quantity / Amount** over 13 consecutive weeks to detect sal
 Data Analyst | DataCamp Certified — DA0020769552720
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ronald--sonou-blue?logo=linkedin)](https://linkedin.com/in/ronald-sonou)
-[![GitHub](https://img.shields.io/badge/GitHub-ronald--sonou-black?logo=github)](https://github.com/ronald-sonou)
+[![GitHub](https://img.shields.io/badge/GitHub-sonouron-black?logo=github)](https://github.com/sonouron)
 [![Email](https://img.shields.io/badge/Email-ronald.sonou1@gmail.com-red?logo=gmail)](mailto:ronald.sonou1@gmail.com)
