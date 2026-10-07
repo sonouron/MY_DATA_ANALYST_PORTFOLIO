@@ -1,6 +1,4 @@
 
-
-
 -- 1. Overall sales per year
 SELECT 
 	YEAR(order_date) AS order_year, 
