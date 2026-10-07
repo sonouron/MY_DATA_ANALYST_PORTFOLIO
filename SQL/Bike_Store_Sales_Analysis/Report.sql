@@ -18,41 +18,41 @@ This report consolidates key customer metrics and behaviors
 */
 -- 1- Gathers essential fields as names, ages, and transaction details
 WITH customers_base AS (
-SELECT 
-f.order_number,
-f.product_key,
-f.order_date,
-f.sales_amount,
-f.quantity,
-c.customer_key,
-c.customer_number,
-CONCAT(c.first_name,' ',c.last_name) AS customer_name,
-DATEDIFF(YEAR,c.birthdate,CURRENT_DATE) AS customer_age
-FROM fact_sales AS f
-LEFT JOIN dim_customers AS c
-ON f.customer_key = c.customer_key
-WHERE order_date IS NOT NULL
+	SELECT 
+		f.order_number,
+		f.product_key,
+		f.order_date,
+		f.sales_amount,
+		f.quantity,
+		c.customer_key,
+		c.customer_number,
+		CONCAT(c.first_name,' ',c.last_name) AS customer_name,
+		DATEDIFF(YEAR,c.birthdate,CURRENT_DATE) AS customer_age
+	FROM fact_sales AS f
+	LEFT JOIN dim_customers AS c
+	ON f.customer_key = c.customer_key
+	WHERE order_date IS NOT NULL
 ),
 
 -- Customer-level aggregations 
 customer_aggregation AS (
-SELECT 
-customer_key,
-customer_number,
-customer_name,
-customer_age,
-MAX(order_date) AS last_order_date,
-COUNT(order_number) AS total_orders,
-SUM(sales_amount) AS total_sales,
-SUM(quantity) AS total_quantity,
-COUNT(product_key)  AS total_products,
-DATEDIFF(MONTH,MIN(order_date),MAX(order_date)) AS lifespan
-FROM customers_base
-GROUP BY 
-	customer_key,
-	customer_number,
-	customer_name,
-	customer_age
+	SELECT 
+		customer_key,
+		customer_number,
+		customer_name,
+		customer_age,
+		MAX(order_date) AS last_order_date,
+		COUNT(order_number) AS total_orders,
+		SUM(sales_amount) AS total_sales,
+		SUM(quantity) AS total_quantity,
+		COUNT(product_key)  AS total_products,
+		DATEDIFF(MONTH,MIN(order_date),MAX(order_date)) AS lifespan
+	FROM customers_base
+	GROUP BY 
+		customer_key,
+		customer_number,
+		customer_name,
+		customer_age
 )
 
 
@@ -170,5 +170,4 @@ SELECT
 		WHEN lifespan = 0 THEN 0
 		ELSE total_sales / lifespan
 	END AS avg_monthly_revenue
-		
 FROM product_aggregation
