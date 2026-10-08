@@ -1,8 +1,5 @@
 # 🚲 Bike Store Sales Analysis | SQL Project
 
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![T-SQL](https://img.shields.io/badge/T--SQL-Advanced-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 End-to-end SQL analysis of a global bike store's sales, customers, and products. Built on a 3-table star schema in **SQL Server**, this project covers time-series analysis, product performance, customer segmentation, and executive KPI reporting.
 
@@ -17,7 +14,6 @@ End-to-end SQL analysis of a global bike store's sales, customers, and products.
 - [Detailed Analysis](#-detailed-analysis)
 - [Business Recommendations](#-business-recommendations)
 - [Data Quality & Limitations](#%EF%B8%8F-data-quality--limitations)
-- [Repository Structure](#-repository-structure)
 - [Author](#-author)
 
 ---
@@ -281,8 +277,7 @@ dim_products
 ## 👤 Author
 
 **Ronald Bienvenu SONOU**
-Data Analyst | SQL · Data Modeling · Business Intelligence
-
+Data Analyst | SQL • Data Modeling • Business Intelligence • Python • Excel • Power BI
 📧 ronald.sonou1@gmail.com
 🔗 [LinkedIn](https://www.linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username)
 
