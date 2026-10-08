@@ -1,8 +1,8 @@
 # 🚲 Bike Store Sales Analysis | SQL Project
 
-[SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-[T-SQL](https://img.shields.io/badge/T--SQL-Advanced-blue?style=for-the-badge)
-[Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![T-SQL](https://img.shields.io/badge/T--SQL-Advanced-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 End-to-end SQL analysis of a global bike store's sales, customers, and products. Built on a 3-table star schema in **SQL Server**, this project covers time-series analysis, product performance, customer segmentation, and executive KPI reporting.
 
@@ -116,7 +116,7 @@ dim_products
 
 #### 1. Overall Sales per Year
 
-[Sales per year](images/1-sales_per_year.png)
+![Sales per year](images/1-sales_per_year.png)
 
 | Year | Revenue | Unique Customers |
 |------|---------|------------------|
@@ -132,14 +132,14 @@ dim_products
 
 #### 2. Sales Drill-Down by Month and Year
 
-[Sales per month and year](images/2-sales_per_month_and_year.png)
+![Sales per month and year](images/2-sales_per_month_and_year.png)
 
 - In 2011, monthly revenue grew from **~$470K in January** to a **peak of ~$738K in June**.
 - The second half of 2011 stayed strong, between ~$597K and $708K per month.
 
 #### 3. Running Total & Moving Average
 
-[Running total and moving average](images/3-running_total_moving_average.png)
+![Running total and moving average](images/3-running_total_moving_average.png)
 
 - The running total shows how revenue accumulates over time, with a clear acceleration in 2013.
 - The moving average smooths short-term volatility and highlights the long-term trend.
@@ -150,70 +150,41 @@ dim_products
 
 #### 4. Yearly Product Performance
 
-[Product performance](images/4-product_performance.png)
+![Product performance](images/4-yearly_performance.png)
 
 - Each product's yearly sales are compared to its own average and to the previous year, flagging **Above / Below Average** and **Increase / Decrease**.
 
 #### 5. Category Contribution to Overall Sales
 
-[Best categories](images/5-best_categories.png)
+![Best categories](images/5-best_categories.png)
 
-| Category | Revenue | Share |
-|----------|---------|-------|
-| Bikes | $28,316,272 | **96.46%** |
-| Accessories | $700,262 | 2.39% |
-| Clothing | $339,716 | 1.16% |
 
 - The business is heavily dependent on a single category: Accessories and Clothing together weigh under 4%.
 
 #### 6. Product Cost Segmentation
 
-[Cost segment](images/6-cost_segment.png)
+![Cost segment](images/6-product_segment.png)
 
 - **110 products** cost under $100, the largest cost band.
 - **39 products** cost over $1,000, almost all in the Bikes category.
 
 #### 11. Products & Average Cost by Category
 
-[Products by category](images/11-product_by_category.png)
-
-| Category | Products | Avg Cost |
-|----------|----------|----------|
-| Components | 127 | $264 |
-| Bikes | 97 | $949 |
-| Clothing | 35 | $24 |
-| Accessories | 29 | $13 |
-| NULL | 7 | $28 |
+![Products by category](images/11-product_by_category.png)
 
 - **Components is the largest catalog category (127 products) but generates zero sales.**
 - **7 products have no category** and should be fixed at the source.
 
 #### 12. Revenue by Category & by Customer
 
-[Revenue by category](images/12-revenue_by_category.png)
+![Revenue by category](images/12-revenue_by_category.png)
 
 - Confirms the Bikes dominance.
 - The highest-spending customers each generate **over $10,000** in revenue, a profile matching the VIP segment.
 
 #### 14. Top 5 Subcategories & 5 Worst-Performing Products
 
-[Top 5 best subcategories and worst products](images/14-top5_best_categories.png)
-
-| Top 5 Subcategories | Revenue |
-|---------------------|---------|
-| Road Bikes | $14,519,438 |
-| Mountain Bikes | $9,952,254 |
-| Touring Bikes | $3,844,580 |
-| Tires and Tubes | $244,634 |
-| Helmets | $225,435 |
-
-| Worst 5 Products | Revenue |
-|------------------|---------|
-| Racing Socks-L | $2,430 |
-| Racing Socks-M | $2,682 |
-| Patch Kit/8 Patches | $6,382 |
-| Bike Wash-Dissolver | $7,272 |
-| Touring Tire Tube | $7,440 |
+![Top 5 best subcategories and worst products](images/14-top5_best_categories.png)
 
 - **Road Bikes alone generate ~49% of total revenue.**
 - **Top 3 products:** Mountain-200 Black-46 ($1.37M), Mountain-200 Black-42 ($1.36M), Mountain-200 Silver-38 ($1.34M).
@@ -224,7 +195,7 @@ dim_products
 
 #### 7. Customer Segmentation by Spending Behavior
 
-[Customer segment](images/7-customer_segment.png)
+![Customer segment](images/7-customer_segment.png)
 
 | Segment | Customers | Share | Definition |
 |---------|-----------|-------|------------|
@@ -236,43 +207,29 @@ dim_products
 
 #### 8. Customer Profile Report
 
-[Customer segmentation report](images/8-customer_segmentation.png)
+![Customer segmentation report](images/8-customer_segmentation.png)
 
 - One row per customer with 15 KPIs: orders, sales, quantity, products, recency, segment, age group, AOV, and monthly spend.
 - Ready to feed a BI dashboard (Power BI / Tableau) or a CRM campaign.
 
 #### 10. Customers by Country and Gender
 
-[Customers by countries and genders](images/10-customers_by_countries_and_genres.png)
+![Customers by countries and genders](images/10-customer_by_countries_and_genres.png)
 
 - The **United States** leads with **7,482 customers** (40.5% of the base).
 - Gender split is nearly even: **Male 50.5% / Female 49.4%**.
 
 #### 13. Units Sold by Country
 
-[Units sold by country](images/13-units_sold_by_country.png)
+![Units sold by country](images/13-distribution.png)
 
-| Country | Customers | Units Sold | Units per Customer |
-|---------|-----------|-----------|--------------------|
-| United States | 7,482 | 20,481 | 2.7 |
-| Australia | 3,591 | 13,346 | 3.7 |
-| Canada | 1,571 | 7,630 | **4.9** |
-| United Kingdom | 1,913 | 6,910 | 3.6 |
-| Germany | 1,780 | 5,626 | 3.2 |
-| France | 1,810 | 5,559 | 3.1 |
 
 - **US + Australia** account for **~56% of units sold**.
 - **Canada** has the highest units per customer, making it a high-engagement market.
 
 #### 15. Revenue by Customer Segment
 
-[Average revenue by segment](images/15-avg_revenue_by_segment.png)
-
-| Segment | Customers | AOV per Customer* |
-|---------|-----------|-------------------|
-| New | 14,631 | ~$331 |
-| Regular | 2,198 | ~$992 |
-| VIP | 1,655 | **~$1,417** |
+![Average revenue by segment](images/15-avg_revenue_by_segment.png)
 
 *\*Sum of average order value ÷ number of customers in the segment.*
 
@@ -280,12 +237,8 @@ dim_products
 
 #### 16. Revenue by Age Segment
 
-[Average revenue by age segment](images/16-avg_revenue_by_age_segment.png)
+![Average revenue by age segment](images/16-avg_revenue_by_age_segment.png)
 
-| Age Group | Sum of Avg Monthly Spend | Sum of Avg Order Value |
-|-----------|--------------------------|------------------------|
-| Older (40-59) | $5,540,958 | $6,263,083 |
-| 60 and Over | $2,827,232 | $3,105,364 |
 
 - The **40-59 age group** contributes about 2x more value than the 60+ group.
 
@@ -295,7 +248,7 @@ dim_products
 
 #### 9. Key Business Metrics Report
 
-[Executive KPI report](images/9-analyse_report.png)
+![Executive KPI report](images/9-analyse_report.png)
 
 - **100% of registered customers placed at least one order.**
 - Each order contains **~2.2 items** on average (60,423 / 27,659).
@@ -322,23 +275,6 @@ dim_products
 - **Quantity metric:** Q1 and Q2 use `COUNT(quantity)`, which counts order lines rather than units.
 - **Recency:** computed with `CURRENT_DATE`, so values reflect time since the dataset ended.
 - **Segment aggregates:** Q15 and Q16 sum per-customer averages; per-customer figures were derived by dividing by segment size.
-
----
-
-## 📁 Repository Structure
-
-```
-bike-store-sql-analysis/
-├── datasets/
-│   ├── fact_sales.csv
-│   ├── dim_customers.csv
-│   └── dim_products.csv
-├── scripts/
-│   └── analysis.sql
-├── images/
-│   └── *.png            → Query result screenshots (1 to 16)
-└── README.md
-```
 
 ---
 
