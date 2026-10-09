@@ -279,7 +279,7 @@ dim_products
 **Ronald Bienvenu SONOU**
 Data Analyst | SQL • Data Modeling • Business Intelligence • Python • Excel • Power BI
 📧 ronald.sonou1@gmail.com
-🔗 [LinkedIn](https://www.linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username)
+🔗 [LinkedIn](https://www.linkedin.com/in/ronald-sonou) · [GitHub](https://github.com/sonouron)
 
 ---
 
