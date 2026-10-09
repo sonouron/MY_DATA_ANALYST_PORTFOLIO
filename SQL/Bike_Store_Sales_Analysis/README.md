@@ -164,21 +164,21 @@ dim_products
 - **110 products** cost under $100, the largest cost band.
 - **39 products** cost over $1,000, almost all in the Bikes category.
 
-#### 11. Products & Average Cost by Category
+#### 7. Products & Average Cost by Category
 
 ![Products by category](images/11-product_by_category.png)
 
 - **Components is the largest catalog category (127 products) but generates zero sales.**
 - **7 products have no category** and should be fixed at the source.
 
-#### 12. Revenue by Category & by Customer
+#### 8. Revenue by Category & by Customer
 
 ![Revenue by category](images/12-revenue_by_category.png)
 
 - Confirms the Bikes dominance.
 - The highest-spending customers each generate **over $10,000** in revenue, a profile matching the VIP segment.
 
-#### 14. Top 5 Subcategories & 5 Worst-Performing Products
+#### 9. Top 5 Subcategories & 5 Worst-Performing Products
 
 ![Top 5 best subcategories and worst products](images/14-top5_best_categories.png)
 
@@ -189,7 +189,7 @@ dim_products
 
 ### 👥 Part 3: Customer Analysis
 
-#### 7. Customer Segmentation by Spending Behavior
+#### 10. Customer Segmentation by Spending Behavior
 
 ![Customer segment](images/7-customer_segment.png)
 
@@ -201,14 +201,14 @@ dim_products
 
 - **Nearly 4 out of 5 customers are New** and never reach a 12-month relationship.
 
-#### 8. Customer Profile Report
+#### 11. Customer Profile Report
 
 ![Customer segmentation report](images/8-customer_segmentation.png)
 
 - One row per customer with 15 KPIs: orders, sales, quantity, products, recency, segment, age group, AOV, and monthly spend.
 - Ready to feed a BI dashboard (Power BI / Tableau) or a CRM campaign.
 
-#### 10. Customers by Country and Gender
+#### 12. Customers by Country and Gender
 
 ![Customers by countries and genders](images/10-customer_by_countries_and_genres.png)
 
@@ -223,7 +223,7 @@ dim_products
 - **US + Australia** account for **~56% of units sold**.
 - **Canada** has the highest units per customer, making it a high-engagement market.
 
-#### 15. Revenue by Customer Segment
+#### 14. Revenue by Customer Segment
 
 ![Average revenue by segment](images/15-avg_revenue_by_segment.png)
 
@@ -231,7 +231,7 @@ dim_products
 
 - **A VIP customer's average order is ~4x larger than a New customer's.**
 
-#### 16. Revenue by Age Segment
+#### 15. Revenue by Age Segment
 
 ![Average revenue by age segment](images/16-avg_revenue_by_age_segment.png)
 
@@ -242,7 +242,7 @@ dim_products
 
 ### 📊 Part 4: Executive Report
 
-#### 9. Key Business Metrics Report
+#### 16. Key Business Metrics Report
 
 ![Executive KPI report](images/9-analyse_report.png)
 
