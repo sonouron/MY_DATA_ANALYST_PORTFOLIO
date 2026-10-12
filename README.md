@@ -35,7 +35,7 @@ Chaque projet est documenté avec son contexte métier, sa méthodologie, les ou
 |--------|--------|-------------|
 | [🔴 Analyse du Churn Client](./PYTHON/PROJECT_1-churn-analysis) | Python · SQL · Power BI | Identification d'un taux de churn ayant triplé sans être détecté (3,1% → 10,5%) et recommandations de rétention |
 | [📊 Dashboard RH — Attrition](./hr-attrition-atlas-labs) | Power BI · DAX | Dashboard exécutif révélant un taux d'attrition de 16,1%, avec les Ventes comme département à risque |
-| [🔭 Analyse Nobel & Médailles Fields](./nobel-fields-medal-analysis) | Python · BeautifulSoup · scipy | Pipeline ETL complet et test statistique (Chi², p=0,35) sur 431 lauréats |
+| [🔭 Analyse Nobel & Médailles Fields](https://www.canva.com/design/DAHARqRptq8/XiBBDNboZ8n6i7yl-QTNvA/view?utm_content=DAHARqRptq8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h220d561d16) | Python · BeautifulSoup · scipy | Pipeline ETL complet et test statistique (Chi², p=0,35) sur 431 lauréats |
 | [✈️ Pipeline ETL — Aéroports Mondiaux](./etl-airports-pipeline) | Python · PostgreSQL · SQL | Nettoyage et normalisation de 50 000+ aéroports et cartographie des zones sous-desservies |
 | [🛍️ Dashboard Ventes E-Commerce](./EXCEL/E-commerce_sales_performance) | Excel · TCD · Slicers | Dashboard interactif analysant plus de 240 K€ de ventes sur 3 mois |
 
