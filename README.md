@@ -1,60 +1,72 @@
-# 📊 Portfolio Data Analytics
+# 📊 Ronald Sonou — Data Analytics Portfolio
 
-Bienvenue sur mon portfolio de Data Analyst !
+> **Turning raw data into actionable business insights.**
+> DataCamp-Certified Data Analyst | Python • SQL • Power BI • Excel
 
-Je suis un Data Analyst certifié avec une expérience pratique dans la collecte, l'organisation et l'analyse de données pour orienter les décisions business. Je maîtrise **Python**, **SQL**, **Excel**, **Power BI** et **Tableau**, avec une solide base en création de dashboards, rédaction de rapports, data mining, fusion de données et analyse statistique.
+Welcome to my portfolio! I am a Data Analyst with 1+ year of hands-on experience and a strong background in Mathematics and Computer Science. I specialize in building end-to-end analytical pipelines—from data cleaning and EDA to predictive modeling and executive dashboards.
 
----
-
-## 🎯 Ce que vous trouverez ici
-
-Ce portfolio présente une variété de projets qui démontrent mes compétences analytiques :
-
-- **Dashboards & Rapports** — Tableaux de bord interactifs créés avec Power BI, Tableau et Excel
-- **Projets de programmation** — Analyse de données et automatisation avec Python et SQL
-- **Analyses de bout en bout** — Projets couvrant tout le pipeline : collecte, nettoyage, exploration, visualisation et recommandations
-
-Chaque projet est documenté avec son contexte métier, sa méthodologie, les outils utilisés et les insights clés — pour que vous puissiez voir non seulement *ce que* j'ai fait, mais *pourquoi* cela compte.
+I don't just write code; I solve business problems. Here is a selection of projects where data was used to drive real decisions.
 
 ---
 
-## 🛠️ Compétences & Outils
+## 🚀 Featured Projects 
 
-| Catégorie | Outils |
-|-----------|--------|
-| **Langages** | Python (pandas, numpy, matplotlib, seaborn, scikit-learn), SQL, R |
-| **BI & Visualisation** | Power BI, Tableau, Excel |
-| **Bases de données** | PostgreSQL, MySQL, BigQuery |
-| **Autres** | Git, Jupyter Notebook, VS Code |
+### 🚲 1. Bike Store Sales Analysis (SQL Data Warehouse)
+* **Tools:** `SQL Server` · `Star Schema` · `CTEs` · `Window Functions`
+* **The Challenge:** Analyze 3 years of global sales data to identify revenue drivers and customer behavior.
+* **The Impact:** Uncovered that **Bikes generate 96.46%** of the **$29.3M revenue**. Segmented the customer base to identify a VIP segment (9% of users) with an Average Order Value **4x higher** than new customers, leading to targeted retention recommendations.
+* => [View the SQL Project](./SQL/bike-store-analysis)
+
+### 🔴 2. SaaS Fitness App — Customer Churn Analysis
+* **Tools:** `Python` · `Pandas` · `Seaborn` · `Power BI`
+* **The Challenge:** A subscription app faced a rising churn rate and needed to understand why users were leaving.
+* **The Impact:** Merged 3 complex datasets (400 users, 918 tickets). Identified that inactive users had a **54% churn rate** (vs 4% for engaged users) and that support resolution time increased by **197%** for churned customers. Delivered a full executive report and dashboard.
+* => [View the Python Project](./PYTHON/PROJECT_1-churn-analysis)
+
+### 🛍️ 3. E-Commerce Sales Performance Dashboard
+* **Tools:** `Microsoft Excel` · `PivotTables` · `Slicers` · `DAX`
+* **The Challenge:** Transform 2,400+ raw transactions into an interactive decision-making tool for management.
+* **The Impact:** Built a dynamic dashboard tracking **$649K in revenue** and 11,997 items sold. Segmented purchase channels to reveal that the mobile App is the top conversion driver (19% for females), guiding marketing investment strategies.
+* => [View the Excel Project](./EXCEL/E-commerce_sales_performance)
+
+### 📊 4. HR Attrition Dashboard (Atlas Labs)
+* **Tools:** `Power BI` · `DAX` · `Data Modeling`
+* **The Challenge:** HR needed to understand the root causes of employee turnover.
+* **The Impact:** Analyzed 1,470 employees to uncover a **16.1% attrition rate**. Proved that frequent travel doubled attrition and overtime increased risk by **40%**, leading to targeted retention strategies for the Sales department.
+* => [View the Power BI Project](./hr-attrition-atlas-labs)
+
+### 🔭 5. Nobel & Fields Medal Analysis
+* **Tools:** `Python` · `BeautifulSoup` · `SciPy`
+* **The Challenge:** Extract and analyze data on 431 laureates to test a popular belief.
+* **The Impact:** Built a full ETL pipeline from Wikipedia and conducted a Pearson Chi-square test (p = 0.35), statistically proving there is no correlation between zodiac signs and scientific distinction.
+* => [View the Data Mining Project](https://www.canva.com/design/DAHARqRptq8/XiBBDNboZ8n6i7yl-QTNvA/view)
 
 ---
 
-## 📁 Projets Phares
+## 🛠️ Technical Stack
 
-| Projet | Outils | Description |
-|--------|--------|-------------|
-| [🔴 Analyse du Churn Client](./PYTHON/PROJECT_1-churn-analysis) | Python · SQL · Power BI | Identification d'un taux de churn ayant triplé sans être détecté (3,1% → 10,5%) et recommandations de rétention |
-| [📊 Dashboard RH — Attrition](./hr-attrition-atlas-labs) | Power BI · DAX | Dashboard exécutif révélant un taux d'attrition de 16,1%, avec les Ventes comme département à risque |
-| [🔭 Analyse Nobel & Médailles Fields](https://www.canva.com/design/DAHARqRptq8/XiBBDNboZ8n6i7yl-QTNvA/view?utm_content=DAHARqRptq8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h220d561d16) | Python · BeautifulSoup · scipy | Pipeline ETL complet et test statistique (Chi², p=0,35) sur 431 lauréats |
-| [✈️ Pipeline ETL — Aéroports Mondiaux](./etl-airports-pipeline) | Python · PostgreSQL · SQL | Nettoyage et normalisation de 50 000+ aéroports et cartographie des zones sous-desservies |
-| [🛍️ Dashboard Ventes E-Commerce](./EXCEL/E-commerce_sales_performance) | Excel · TCD · Slicers | Dashboard interactif analysant plus de 240 K€ de ventes sur 3 mois |
+* **Data Analysis:** Python (Pandas, NumPy, Scikit-learn, BeautifulSoup), SQL (PostgreSQL, MySQL), R.
+* **Business Intelligence:** Power BI (DAX), Excel (Advanced, VBA), Tableau.
+* **Cloud & Data Warehousing:** Google Cloud Platform (GCP), BigQuery.
+* **Methodologies:** ETL, Data Cleaning, Exploratory Data Analysis (EDA), KPI Tracking, Statistical Testing.
+* **AI Tools:** Generative AI, Prompt Engineering (Claude, Gemini, DeepSeek).
 
 ---
 
-## 🧠 Au-delà de la technique
+## 🧠 My Philosophy: Beyond the Code
 
-Je mets un point d'honneur sur ma **pensée critique** et ma **capacité à résoudre des problèmes**. J'aborde l'analyse de données avec un état d'esprit stratégique — en identifiant les enjeux et opportunités cachés dans les données, et en les traduisant en recommandations claires et actionnables pour les parties prenantes.
+I believe a great Data Analyst is a bridge between technical data and business strategy. I don't just deliver numbers; I deliver **stories** that stakeholders can understand and act upon. 
+
+*Fully remote-ready, autonomous, and detail-oriented.*
 
 ---
 
-## 📬 Me Contacter
+## 📬 Let's Connect!
+
+I am currently open to **Data Analyst** opportunities (Full Remote / International).
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ronald--sonou-blue?logo=linkedin)](https://linkedin.com/in/ronald-sonou)
 [![Email](https://img.shields.io/badge/Email-ronald.sonou1@gmail.com-red?logo=gmail)](mailto:ronald.sonou1@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-ronald--sonou-black?logo=github)](https://github.com/ronald-sonou)
 
-📄 **[Télécharger mon CV (PDF)](./CV_Ronald_Sonou_DataAnalyst.pdf)**
-
----
-
-*Merci pour votre temps — je me réjouis de pouvoir échanger avec vous.*
+📄 **[Download my Resume (PDF)](./CV_Ronald_Sonou_DataAnalyst.pdf)**
